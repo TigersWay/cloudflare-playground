@@ -1,0 +1,11 @@
+# Windows & helpers, IDE & Personal preferences
+desktop.ini
+folder.ico
+.keep/
+
+# Dependency files & directories (p/npm)
+node_modules/
+pnpm-lock.yaml
+
+# Project's specific file(s)
+

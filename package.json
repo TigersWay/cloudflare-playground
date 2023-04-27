@@ -1,0 +1,13 @@
+{
+  "name": "cloudflare-playground",
+  "description": "Metric studies on Cloudflare Workers & Pages",
+  "keywords": [
+    "cloudflare",
+    "cloudflare-workers",
+    "cloudflare-pages"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Ben Michaud <ben@tigersway.net>",
+  "scripts": {}
+}
