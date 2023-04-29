@@ -1,0 +1,15 @@
+{
+  "name": "worker-itty",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "wrangler dev src/index.ts",
+    "deploy": "wrangler publish src/index.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "wrangler": "2.17.0"
+  },
+  "dependencies": {
+    "itty-router": "4.0.0-next.46"
+  }
+}
