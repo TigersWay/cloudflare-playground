@@ -1,0 +1,15 @@
+{
+  "name": "worker-hono",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy src/index.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230518.0",
+    "wrangler": "3.0.1"
+  },
+  "dependencies": {
+    "hono": "^3.2.2"
+  }
+}

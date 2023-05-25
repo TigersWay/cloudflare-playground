@@ -1,4 +1,4 @@
-import { Hono } from 'hono';
+import { Hono } from 'hono/quick';
 import { handle } from 'hono/cloudflare-pages';
 
 const app = new Hono();

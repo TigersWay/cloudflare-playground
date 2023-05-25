@@ -7,4 +7,6 @@ router.get('/hello', (ctx) => {
   return text(`Hello ${name}!`);
 });
 
+router.all('*', () => new Response('404 Not Found', { status: 404 }));
+
 export default { fetch: router.handle };

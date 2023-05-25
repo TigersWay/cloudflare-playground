@@ -4,9 +4,12 @@
   "keywords": [
     "cloudflare",
     "cloudflare-workers",
-    "cloudflare-pages"
+    "cloudflare-pages",
+    "itty-router",
+    "hono",
+    "pico"
   ],
-  "version": "0.0.0",
+  "version": "0.2.0",
   "license": "MIT",
   "author": "Ben Michaud <ben@tigersway.net>",
   "scripts": {}
