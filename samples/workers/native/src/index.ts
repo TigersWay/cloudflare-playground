@@ -7,7 +7,7 @@ export default {
     if (url.pathname.toLowerCase() !== '/hello') return new Response('Not Found', { status: 404 });
 
     const name = url.searchParams.get('name') || 'World';
-    return new Response(`Hello ${name}!`);
+    return new Response(`Hello ${name}! (${request.cf?.colo})`);
   }
 
 };

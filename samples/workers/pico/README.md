@@ -1,1 +1,1 @@
-# worker-hono
+# worker-pico
