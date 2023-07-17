@@ -4,13 +4,31 @@ Metric studies on Cloudflare Workers & Pages
 
 ## Workers
 
-- Native (Total Upload: 0.49 KiB / gzip: 0.30 KiB) ![worker native](images/worker-native.png)
-- Pico (Total Upload: 0.94 KiB / gzip: 0.54 KiB) ![worker pico](images/worker-pico.png)
-- itty-router (Total Upload: 1.66 KiB / gzip: 0.90 KiB) ![worker itty-router](images/worker-itty.png)
-- Hono/quick (Total Upload: 27.75 KiB / gzip: 6.75 KiB) ![worker hono](images/worker-itty.png)
+- Native (Total Upload: 0.51 KiB / gzip: 0.32 KiB) \
+  _No routing and no helper, but fastest_
+  ![worker native](images/worker-native.png)
+
+- [Pico](https://github.com/yusukebe/pico) (Total Upload: 0.96 KiB / gzip: 0.55 KiB) \
+  _Light router but no helpers, fast anyway_
+  ![worker pico](images/worker-pico.png)
+  
+- [itty-router](https://github.com/kwhitley/itty-router) (Total Upload: 2.08 KiB / gzip: 1.09 KiB) \
+  _Famous router with its helpers, fast_
+  ![worker itty-router](images/worker-itty.png)
+
+- [Hono/quick](https://github.com/honojs/hono) (Total Upload: 28.10 KiB / gzip: 6.86 KiB) \
+  _Real fast router but slightly too heavy for a 'free plan' 10ms_
+  ![worker hono](images/worker-hono.png)
 
 ## Pages & Functions
 
 - Native ![pages native](images/pages-native.png)
-- itty-router ![pages itty-router](images/pages-itty.png)
-- hono/quick ![pages hono](images/pages-hono.png)
+
+- [Pico](https://github.com/yusukebe/pico)
+  ![pages pico](images/pages-pico.png)
+
+- [itty-router](https://github.com/kwhitley/itty-router)
+  ![pages itty-router](images/pages-itty.png)
+
+- [Hono/quick](https://github.com/honojs/hono)
+  ![pages hono](images/pages-hono.png)
