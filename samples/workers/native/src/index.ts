@@ -1,5 +1,4 @@
 export default {
-
   async fetch(request: Request): Promise<Response> {
     if (request.method.toUpperCase() !== 'GET') return new Response('Method Not Allowed', { status: 405 });
 
@@ -7,7 +6,9 @@ export default {
     if (url.pathname.toLowerCase() !== '/hello') return new Response('Not Found', { status: 404 });
 
     const name = url.searchParams.get('name') || 'World';
-    return new Response(`Hello ${name}! (${request.cf?.colo})`);
+    return Response.json({
+      hello: name,
+      colo: request.cf?.colo
+    });
   }
-
 };

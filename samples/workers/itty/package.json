@@ -5,10 +5,10 @@
     "deploy": "wrangler deploy src/index.ts"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230710.1",
-    "wrangler": "^3.2.0"
+    "@cloudflare/workers-types": "^4.20231016.0",
+    "wrangler": "^3.14.0"
   },
   "dependencies": {
-    "itty-router": "^4.0.14"
+    "itty-router": "^4.0.23"
   }
 }

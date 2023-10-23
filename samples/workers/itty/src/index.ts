@@ -1,10 +1,13 @@
-import { Router, error, text } from 'itty-router';
+import { Router, error, json } from 'itty-router';
 
 const router = Router();
 
-router.get('/hello', (request) => {
+router.get('/hello', request => {
   const { name = 'World' } = request.query;
-  return text(`Hello ${name}! (${request.cf?.colo})`);
+  return json({
+    hello: name,
+    colo: request.cf?.colo
+  });
 });
 
 router.all('*', () => error(404));
