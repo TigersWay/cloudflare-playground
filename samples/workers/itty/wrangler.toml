@@ -1,2 +1,8 @@
 name = "itty"
-compatibility_date = "2023-10-16"
+main = "src/index.ts"
+compatibility_date = "2023-10-25"
+
+account_id = "78b2f97010ad03429a7320b53cbd01a9"
+
+[limits]
+cpu_ms = 10
