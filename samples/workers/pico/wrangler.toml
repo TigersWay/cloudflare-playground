@@ -1,8 +1,11 @@
 name = "pico"
 main = "src/index.ts"
-compatibility_date = "2023-10-25"
+compatibility_date = "2023-12-18"
 
 account_id = "78b2f97010ad03429a7320b53cbd01a9"
+
+[placement]
+mode = "smart"
 
 [limits]
 cpu_ms = 10

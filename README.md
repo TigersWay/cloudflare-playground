@@ -4,7 +4,14 @@ Metric studies on Cloudflare Workers & Pages
 
 ## CHANGELOG
 
+- v0.7.0 2024-01-09
+
+  - wrangler & @cloudflare/workers-types moved to central/main package
+  - itty-router 4.0.26
+  - hono 3.12.0
+
 - v0.6.0 2023-11-01
+
   - New "Standard usage model" + CPU limit
   - Minify on deploy
   - wrangler 3.15.0
@@ -19,11 +26,11 @@ Metric studies on Cloudflare Workers & Pages
   _Light router but no helpers, fast anyway_
   ![worker pico](images/worker-pico.png)
 
-- [itty-router](https://github.com/kwhitley/itty-router) v4.0.23 (Total Upload: 1.46 KiB / gzip: 0.89 KiB ~~2.10 KiB / gzip: 1.08 KiB~~) \
+- [itty-router](https://github.com/kwhitley/itty-router) v4.0.26 (Total Upload: 1.44 KiB / gzip: 0.89 KiB ~~2.10 KiB / gzip: 1.08 KiB~~) \
   _Famous router with its helpers, fast_
   ![worker itty-router](images/worker-itty.png)
 
-- [Hono/tiny](https://github.com/honojs/hono) v3.9.1 (Total Upload: 13.52 KiB / gzip: 5.14 KiB ~~28.33 KiB / gzip: 7.18 KiB~~) \
+- [Hono/tiny](https://github.com/honojs/hono) v3.12.0 (Total Upload: 15.34 KiB / gzip: 5.68 KiB ~~28.33 KiB / gzip: 7.18 KiB~~) \
   _Real fast router but slightly too heavy for a 'free plan' 10ms_
   ![worker hono](images/worker-hono.png)
 
