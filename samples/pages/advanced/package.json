@@ -1,0 +1,8 @@
+{
+  "name": "pages-advanced",
+  "scripts": {
+    "start": "wrangler pages dev ./pages --compatibility-date=2023-11-21",
+    "build": "esbuild src/_worker.ts --outfile=pages/_worker.js --format=esm --bundle --minify",
+    "deploy": "wrangler pages deploy ./pages"
+  }
+}

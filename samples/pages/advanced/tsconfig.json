@@ -5,13 +5,12 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
+    "alwaysStrict": false,
     "lib": [
-      "DOM",
       "esnext"
     ],
     "types": [
-      "@cloudflare/workers-types",
-      "node"
-    ],
+      "@cloudflare/workers-types"
+    ]
   }
 }

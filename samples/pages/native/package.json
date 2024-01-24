@@ -1,12 +1,7 @@
 {
   "name": "pages-native",
-  "version": "0.0.0",
   "scripts": {
-    "start": "wrangler pages dev ./pages --compatibility-date=2023-05-18",
+    "start": "wrangler pages dev ./pages --compatibility-date=2023-12-18",
     "deploy": "wrangler pages deploy ./pages"
-  },
-  "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230518.0",
-    "wrangler": "3.0.1"
   }
 }
