@@ -9,13 +9,13 @@
     "hono",
     "pico"
   ],
-  "version": "0.7.0",
+  "version": "0.8.0",
   "license": "MIT",
   "author": "Ben Michaud <ben@tigersway.net>",
   "scripts": {},
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20231218.0",
-    "prettier": "^3.1.1",
-    "wrangler": "^3.22.3"
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "prettier": "^3.2.5",
+    "wrangler": "^3.28.3"
   }
 }

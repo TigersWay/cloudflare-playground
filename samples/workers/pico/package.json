@@ -5,6 +5,6 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "@picojs/pico": "^0.3.1"
+    "@picojs/pico": "^0.3.2"
   }
 }

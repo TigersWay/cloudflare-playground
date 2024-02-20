@@ -1,7 +1,7 @@
 {
   "name": "pages-native",
   "scripts": {
-    "start": "wrangler pages dev ./pages --compatibility-date=2023-12-18",
-    "deploy": "wrangler pages deploy ./pages"
+    "start": "wrangler pages dev ./pages --compatibility-date=2024-02-08",
+    "deploy": "wrangler pages deploy ./pages --commit-dirty=true"
   }
 }

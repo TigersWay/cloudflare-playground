@@ -5,6 +5,6 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "itty-router": "^4.0.26"
+    "itty-router": "^4.0.27"
   }
 }

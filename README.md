@@ -4,6 +4,13 @@ Metric studies on Cloudflare Workers & Pages
 
 ## CHANGELOG
 
+- v0.8.0 2024-02-20
+
+  - wrangler 3.28.3 & @cloudflare/workers-types 4.20240208.0
+  - itty-router 4.0.27
+  - hono 4.0.4
+  - @picojs/pico 0.3.2
+
 - v0.7.0 2024-01-09
 
   - wrangler & @cloudflare/workers-types moved to central/main package
@@ -22,27 +29,25 @@ Metric studies on Cloudflare Workers & Pages
   _No routing and no helper, but fastest_
   ![worker native](images/worker-native.png)
 
-- [Pico](https://github.com/yusukebe/pico) v0.3.1 (Total Upload: 0.63 KiB / gzip: 0.42 KiB ~~0.97 KiB / gzip: 0.55 KiB~~) \
+- [Pico](https://github.com/yusukebe/pico) v0.3.2 (Total Upload: 0.65 KiB / gzip: 0.45 KiB ~~0.97 KiB / gzip: 0.55 KiB~~) \
   _Light router but no helpers, fast anyway_
   ![worker pico](images/worker-pico.png)
 
-- [itty-router](https://github.com/kwhitley/itty-router) v4.0.26 (Total Upload: 1.44 KiB / gzip: 0.89 KiB ~~2.10 KiB / gzip: 1.08 KiB~~) \
+- [itty-router](https://github.com/kwhitley/itty-router) v4.0.27 (Total Upload: 1.47 KiB / gzip: 0.91 KiB ~~2.10 KiB / gzip: 1.08 KiB~~) \
   _Famous router with its helpers, fast_
   ![worker itty-router](images/worker-itty.png)
 
-- [Hono/tiny](https://github.com/honojs/hono) v3.12.0 (Total Upload: 15.34 KiB / gzip: 5.68 KiB ~~28.33 KiB / gzip: 7.18 KiB~~) \
+- [Hono/tiny](https://github.com/honojs/hono) v4.0.4 (Total Upload: 12.84 KiB / gzip: 4.74 KiB ~~28.33 KiB / gzip: 7.18 KiB~~) \
   _Real fast router but slightly too heavy for a 'free plan' 10ms_
   ![worker hono](images/worker-hono.png)
 
-<!-- ## Pages & Functions
+## Pages & Functions
 
-- Native ![pages native](images/pages-native.png)
+- Native
+  ![pages native](images/pages-native.png)
 
-- [Pico](https://github.com/yusukebe/pico)
-  ![pages pico](images/pages-pico.png)
+- Native/Advanced
+  ![pages native](images/pages-advanced.png)
 
 - [itty-router](https://github.com/kwhitley/itty-router)
   ![pages itty-router](images/pages-itty.png)
-
-- [Hono/quick](https://github.com/honojs/hono)
-  ![pages hono](images/pages-hono.png) -->
