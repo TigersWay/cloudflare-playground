@@ -7,7 +7,8 @@
     "cloudflare-pages",
     "itty-router",
     "hono",
-    "pico"
+    "pico",
+    "fets"
   ],
   "version": "0.8.0",
   "license": "MIT",
