@@ -12,4 +12,4 @@ router.get('/hello', request => {
 
 router.all('*', () => error(404));
 
-export default { fetch: router.handle };
+export default router;
