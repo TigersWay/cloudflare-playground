@@ -1,10 +1,13 @@
-import { Router, text } from 'itty-router';
+import { Router, json } from 'itty-router';
 
 const router = Router({ base: '/api' });
 
 router.get('/hello', request => {
   const { name = 'World' } = request.query;
-  return text(`Hello ${name}!  (${request.cf?.colo})\n`);
+  return json({
+    hello: name,
+    colo: request.cf?.colo
+  });
 });
 
 export const onRequest = async (context: any) => {

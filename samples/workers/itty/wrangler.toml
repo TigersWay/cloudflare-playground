@@ -1,6 +1,6 @@
 name = "itty"
 main = "src/index.ts"
-compatibility_date = "2024-02-08"
+compatibility_date = "2024-03-20"
 
 account_id = "78b2f97010ad03429a7320b53cbd01a9"
 

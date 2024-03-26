@@ -4,6 +4,12 @@ Metric studies on Cloudflare Workers & Pages
 
 ## CHANGELOG
 
+- v0.9.0 2024-03-28
+
+  - wrangler 3.39.0 & @cloudflare/workers-types 4.20240320.1
+  - itty-router 4.2.2
+  - hono 4.1.4
+
 - v0.8.0 2024-02-20
 
   - wrangler 3.28.3 & @cloudflare/workers-types 4.20240208.0

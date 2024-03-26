@@ -1,10 +1,10 @@
 {
   "name": "pages-itty",
   "scripts": {
-    "start": "wrangler pages dev ./pages --compatibility-date=2024-02-08",
+    "start": "wrangler pages dev ./pages --compatibility-date=2024-03-20",
     "deploy": "wrangler pages deploy ./pages --commit-dirty=true"
   },
   "dependencies": {
-    "itty-router": "^4.0.27"
+    "itty-router": "^4.2.2"
   }
 }
