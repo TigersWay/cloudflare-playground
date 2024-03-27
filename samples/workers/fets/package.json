@@ -1,0 +1,10 @@
+{
+  "name": "worker-fets",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "fets": "^0.7.2"
+  }
+}
