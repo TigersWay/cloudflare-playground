@@ -5,6 +5,7 @@ export const onRequest = createRouter({ base: '/api' }).route({
   path: '/hello',
   handler(request) {
     const { name = 'World' } = request.query;
+    // @ts-ignore
     return new Response(`Hello ${name}!  (${request.cf?.colo})\n`);
   }
 });
