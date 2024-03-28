@@ -1,0 +1,10 @@
+{
+  "name": "pages-fets",
+  "scripts": {
+    "start": "wrangler pages dev ./pages --compatibility-date=2024-02-08",
+    "deploy": "wrangler pages deploy ./pages --commit-dirty=true"
+  },
+  "dependencies": {
+    "fets": "^0.7.2"
+  }
+}
