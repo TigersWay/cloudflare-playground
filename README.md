@@ -39,13 +39,17 @@ Metric studies on Cloudflare Workers & Pages
   _Light router but no helpers, fast anyway_
   ![worker pico](images/worker-pico.png)
 
-- [itty-router](https://github.com/kwhitley/itty-router) v4.0.27 (Total Upload: 1.47 KiB / gzip: 0.91 KiB ~~2.10 KiB / gzip: 1.08 KiB~~) \
+- [itty-router](https://github.com/kwhitley/itty-router) v4.0.27 (Total Upload: 1.49 KiB / gzip: 0.92 KiB ~~2.10 KiB / gzip: 1.08 KiB~~) \
   _Famous router with its helpers, fast_
   ![worker itty-router](images/worker-itty.png)
 
-- [Hono/tiny](https://github.com/honojs/hono) v4.0.4 (Total Upload: 12.84 KiB / gzip: 4.74 KiB ~~28.33 KiB / gzip: 7.18 KiB~~) \
+- [Hono/tiny](https://github.com/honojs/hono) v4.0.4 (Total Upload: 11.30 KiB / gzip: 4.45 KiB ~~28.33 KiB / gzip: 7.18 KiB~~) \
   _Real fast router but slightly too heavy for a 'free plan' 10ms_
   ![worker hono](images/worker-hono.png)
+
+- [feTS](https://github.com/ardatan/feTS) v0.8.0 (Total Upload: 143.80 KiB / gzip: 41.30 KiB) \
+  _No comments_
+  ![worker fets](images/worker-fets.png)
 
 ## Pages & Functions
 
